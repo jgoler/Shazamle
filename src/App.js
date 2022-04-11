@@ -6,7 +6,8 @@ import AboutModal from './components/AboutModal';
 import audio from './recordings/testrecording.mp3';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect, useRef } from 'react';
-
+import { BsPlayFill } from 'react-icons/bs';
+import { BsPauseFill } from 'react-icons/bs';
 function App() {
   const [openModal, setOpenModal] = useState(false);
   const [openAboutModal, setOpenAboutModal] = useState(false);
@@ -77,15 +78,19 @@ function App() {
         </form>
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
-        <div>
+        <div className='button-container'>
           <button
             type='button'
-            class='btn btn-secondary'
+            class='btn btn-link'
             onClick={() => {
               togglePlayPause();
             }}
           >
-            Play
+            {playMusic ? (
+              <BsPauseFill size={35} color='white' />
+            ) : (
+              <BsPlayFill size={35} color='white' />
+            )}
           </button>
           <audio ref={audioPlayer} src={audio} />
         </div>
