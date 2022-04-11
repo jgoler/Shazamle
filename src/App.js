@@ -3,12 +3,26 @@ import './App.css';
 import GuessBox from './components/GuessBox';
 import HTPModal from './components/HTPModal';
 import AboutModal from './components/AboutModal';
+import audio from './recordings/testrecording.mp3';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
   const [openAboutModal, setOpenAboutModal] = useState(false);
+  const [playMusic, setPlayMusic] = useState(false);
+
+  const audioPlayer = useRef();
+
+  const togglePlayPause = () => {
+    const prevValue = playMusic;
+    setPlayMusic(!prevValue);
+    if (!prevValue) {
+      audioPlayer.current.play();
+    } else {
+      audioPlayer.current.pause();
+    }
+  };
   return (
     <div className='App'>
       <header className='App-header'>
@@ -40,12 +54,12 @@ function App() {
           </div>
         </div>
         <div className='GuessContainer'>
-          <GuessBox name='Song 1'></GuessBox>
-          <GuessBox name='Song 2'></GuessBox>
-          <GuessBox name='Song 3'></GuessBox>
-          <GuessBox name='Song 4'></GuessBox>
-          <GuessBox name='Song 5'></GuessBox>
-          <GuessBox name='Song 6'></GuessBox>
+          <GuessBox></GuessBox>
+          <GuessBox></GuessBox>
+          <GuessBox></GuessBox>
+          <GuessBox></GuessBox>
+          <GuessBox></GuessBox>
+          <GuessBox></GuessBox>
         </div>
         <form>
           <div className='input'>
@@ -63,6 +77,18 @@ function App() {
         </form>
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
+        <div>
+          <button
+            type='button'
+            class='btn btn-secondary'
+            onClick={() => {
+              togglePlayPause();
+            }}
+          >
+            Play
+          </button>
+          <audio ref={audioPlayer} src={audio} />
+        </div>
       </header>
     </div>
   );
