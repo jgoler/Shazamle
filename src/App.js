@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import GuessBox from './components/GuessBox';
 import HTPModal from './components/HTPModal';
@@ -69,7 +68,9 @@ function App() {
                 class='form-control'
                 type='text'
                 placeholder='Song Guess'
+                id='search'
               ></input>
+              <div id='match-list'></div>
             </div>
             <button type='button' class='btn btn-success'>
               Submit
