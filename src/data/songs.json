@@ -1,11 +1,560 @@
 [
   {
+    "title": "Rocket Man",
+    "artist": "Elton John"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles"
+  },
+  {
+    "title": "Dancing Queen",
+    "artist": "ABBA"
+  },
+  {
+    "title": "Wonderful Tonight",
+    "artist": "Eric Clapton"
+  },
+  {
+    "title": "Heroes",
+    "artist": "David Bowie"
+  },
+  {
+    "title": "Mr. Blue Sky",
+    "artist": "Electric Light Orchestra"
+  },
+  {
+    "title": "Hooked On A Feeling",
+    "artist": "Blue Swede, Björn Skifs"
+  },
+  {
+    "title": "American Pie",
+    "artist": "Don McLean"
+  },
+  {
+    "title": "Escape (The Pina Colada Song)",
+    "artist": "Rupert Holmes"
+  },
+  {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd"
+  },
+  {
+    "title": "Video Killed The Radio Start",
+    "artist": "The Buggles"
+  },
+  {
+    "title": "More Than a Feeling",
+    "artist": "Boston"
+  },
+  {
+    "title": "December, 1963 (Oh, What a Night)",
+    "artist": "Frankie Valli & The Four Seasons"
+  },
+  {
+    "title": "The Boys Are Back In Town",
+    "artist": "Thin Lizzy"
+  },
+  {
+    "title": "Don't Bring Me Down",
+    "artist": "Electric Light Orchestra"
+  },
+  {
+    "title": "Piano Man",
+    "artist": "Billy Joel"
+  },
+  {
+    "title": "Rich Girl",
+    "artist": "Daryl Hall & John Oates"
+  },
+  {
+    "title": "The Joker",
+    "artist": "Steve Miller Band"
+  },
+  {
+    "title": "My Sharona",
+    "artist": "The Knack"
+  },
+  {
+    "title": "Carry on Wayward Son",
+    "artist": "Kansas"
+  },
+  {
+    "title": "Take It Easy",
+    "artist": "Eagles"
+  },
+  {
+    "title": "September",
+    "artist": "Earth, Wind & Fire"
+  },
+  {
+    "title": "Dancing In The Moonlight",
+    "artist": "King Harvest"
+  },
+  {
+    "title": "Go Your Own Way",
+    "artist": "Fleetwood Mac"
+  },
+  {
+    "title": "Baba O'Riley",
+    "artist": "The Who"
+  },
+  {
+    "title": "Don't Stop Me Now",
+    "artist": "Queen"
+  },
+  {
+    "title": "American Girl",
+    "artist": "Tom Petty and the Heartbreakers"
+  },
+  {
+    "title": "Only the Good Die Young",
+    "artist": "Billy Joel"
+  },
+  {
+    "title": "Walk This Way",
+    "artist": "Aerosmith"
+  },
+  {
+    "title": "Lola",
+    "artist": "The Kinks"
+  },
+  {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver"
+  },
+  {
+    "title": "Roxanne",
+    "artist": "The Police"
+  },
+  {
+    "title": "Tiny Dancer",
+    "artist": "Elton John"
+  },
+  {
+    "title": "Kung Fu Fighting",
+    "artist": "Carl Douglas"
+  },
+  {
+    "title": "Superstition",
+    "artist": "Stevie Wonder"
+  },
+  {
+    "title": "Black Betty",
+    "artist": "Ram Jam"
+  },
+  {
+    "title": "Brandy (You're a Fine Girl)",
+    "artist": "Looking Glass"
+  },
+  {
+    "title": "Bennie And The Jets",
+    "artist": "Elton John"
+  },
+  {
+    "title": "ABC",
+    "artist": "The Jackson 5"
+  },
+  {
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen"
+  },
+  {
+    "title": "(Don't Fear) The Reaper",
+    "artist": "Blue Öyster Cult"
+  },
+  {
+    "title": "Message In A Bottle",
+    "artist": "The Police"
+  },
+  {
+    "title": "Three Little Birds",
+    "artist": "Bob Marley & The Wailers"
+  },
+  {
+    "title": "Old Time Rock & Roll",
+    "artist": "Bob Seger"
+  },
+  {
+    "title": "The Chain",
+    "artist": "Fleetwood Mac"
+  },
+  {
+    "title": "Listen to the Music",
+    "artist": "The Doobie Brothers"
+  },
+  {
+    "title": "Hold the Line",
+    "artist": "TOTO"
+  },
+  {
+    "title": "Cat's in the Cradle",
+    "artist": "Harry Chapin"
+  },
+  {
+    "title": "Free Bird",
+    "artist": "Lynyrd Skynyrd"
+  },
+  {
+    "title": "Sir Duke",
+    "artist": "Stevie Wonder"
+  },
+  {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees"
+  },
+  {
+    "title": "Rebel Rebel",
+    "artist": "David Bowie"
+  },
+  {
+    "title": "Life in the Fast Lane",
+    "artist": "Eagles"
+  },
+  {
+    "title": "Come Sail Away",
+    "artist": "Styx"
+  },
+  {
+    "title": "Rock and Roll All Nite",
+    "artist": "KISS"
+  },
+  {
+    "title": "Don't Go Breaking My Heart",
+    "artist": "Elton John, Kiki Dee"
+  },
+  {
+    "title": "All Right Now",
+    "artist": "Free"
+  },
+  {
+    "title": "Joy To The World",
+    "artist": "Three Dog Night"
+  },
+  {
+    "title": "Signed, Sealed, Delivered",
+    "artist": "Stevie Wonder"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen"
+  },
+  {
+    "title": "Summer Breeze",
+    "artist": "Seals and Crofts"
+  },
+  {
+    "title": "Give A Little Bit",
+    "artist": "Supertramp"
+  },
+  {
+    "title": "Sultans of Swing",
+    "artist": "Dire Straits"
+  },
+  {
+    "title": "Have You Ever Seen The Rain",
+    "artist": "Creedence Clearwater Revival"
+  },
+  {
+    "title": "A Horse with No Name",
+    "artist": "America, George Martin"
+  },
+  {
+    "title": "Dream On",
+    "artist": "Aerosmith"
+  },
+  {
+    "title": "Fly Like An Eagle",
+    "artist": "Steve Miller Band"
+  },
+  {
+    "title": "YMCA",
+    "artist": "Village People"
+  },
+  {
+    "title": "Another Brick in the Wall, Pt. 2",
+    "artist": "Pink Floyd"
+  },
+  {
+    "title": "Lovely Day",
+    "artist": "Bill Withers"
+  },
+  {
+    "title": "I Don't Like Mondays",
+    "artist": "The Boomtown Rats"
+  },
+  {
+    "title": "Highway to Hell",
+    "artist": "AC/DC"
+  },
+  {
+    "title": "Cocaine",
+    "artist": "Eric Clapton"
+  },
+  {
+    "title": "Long Train Runnin'",
+    "artist": "The Doobie Brothers"
+  },
+  {
+    "title": "Lean on Me",
+    "artist": "Bill Withers"
+  },
+  {
+    "title": "Come On Eileen",
+    "artist": "Dexys Midnight Runners"
+  },
+  {
+    "title": "We Didn't Start the Fire",
+    "artist": "Billy Joel"
+  },
+  {
+    "title": "La Bamba",
+    "artist": "Ritchie Valens"
+  },
+  {
+    "title": "Centerfold",
+    "artist": "The J. Geils Band"
+  },
+  {
+    "title": "Africa",
+    "artist": "TOTO"
+  },
+  {
+    "title": "Never Gonna Give You Up",
+    "artist": "Rick Astley"
+  },
+  {
+    "title": "We Built This City",
+    "artist": "Starship"
+  },
+  {
+    "title": "Any Way You Want It",
+    "artist": "Journey"
+  },
+  {
+    "title": "Should I Stay or Should I Go",
+    "artist": "The Clash"
+  },
+  {
+    "title": "Wouldn't It Be Nice",
+    "artist": "The Beach Boys"
+  },
+  {
+    "title": "Jessie's Girl",
+    "artist": "Rick Springfield"
+  },
+  {
+    "title": "867-5309 / Jenny",
+    "artist": "Tommy Tutone"
+  },
+  {
+    "title": "Under Pressure",
+    "artist": "Queen, David Bowie"
+  },
+  {
+    "title": "Don't You (Forget About Me)",
+    "artist": "Simple Minds"
+  },
+  {
+    "title": "Your Love",
+    "artist": "The Outfield"
+  },
+  {
+    "title": "Kokomo",
+    "artist": "The Beach Boys"
+  },
+  {
+    "title": "You Shook Me All Night Long",
+    "artist": "AC/DC"
+  },
+  {
+    "title": "Start Me Up",
+    "artist": "The Rolling Stones"
+  },
+  {
+    "title": "Here Comes The Sun",
+    "artist": "The Beatles"
+  },
+  {
+    "title": "Heat Of The Moment",
+    "artist": "Asia"
+  },
+  {
+    "title": "Jack & Diane",
+    "artist": "John Mellencamp"
+  },
+  {
+    "title": "Hungry Like the Wolf",
+    "artist": "Duran Duran"
+  },
+  {
+    "title": "Everybody Wants To Rule The World",
+    "artist": "Tears For Fears"
+  },
+  {
+    "title": "I Melt with You",
+    "artist": "Modern English"
+  },
+  {
+    "title": "I Won't Back Down",
+    "artist": "Tom Petty"
+  },
+  {
+    "title": "Dancing In the Dark",
+    "artist": "Bruce Springsteen"
+  },
+  {
+    "title": "Walk Of Life",
+    "artist": "Dire Straits"
+  },
+  {
+    "title": "Don't Stop",
+    "artist": "Fleetwood Mac"
+  },
+  {
+    "title": "Livin' On A Prayer",
+    "artist": "Bon Jovi"
+  },
+  {
+    "title": "Danger Zone",
+    "artist": "Kenny Logins"
+  },
+  {
+    "title": "I'm Still Standing",
+    "artist": "Elton John"
+  },
+  {
+    "title": "Take Me Home Tonight",
+    "artist": "Eddie Money"
+  },
+  {
+    "title": "Mrs. Robinson",
+    "artist": "Simon & Garfunkel"
+  },
+  {
+    "title": "Glory Days",
+    "artist": "Bruce Springsteen"
+  },
+  {
+    "title": "Paradise City",
+    "artist": "Guns N' Roses"
+  },
+  {
+    "title": "Sweet Emotion",
+    "artist": "Aerosmith"
+  },
+  {
+    "title": "Here I Go Again",
+    "artist": "Whitesnake"
+  },
+  {
+    "title": "Panama",
+    "artist": "Van Halen"
+  },
+  {
+    "title": "Raspberry Beret",
+    "artist": "Prince"
+  },
+  {
+    "title": "Hit Me With Your Best Shot",
+    "artist": "Pat Benatar"
+  },
+  {
+    "title": "Don't You Want Me",
+    "artist": "The Human League"
+  },
+  {
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio, L.V."
+  },
+  {
+    "title": "Wannabe",
+    "artist": "Spice Girls"
+  },
+  {
+    "title": "All Star",
+    "artist": "Smash Mouth"
+  },
+  {
+    "title": "Take on Me",
+    "artist": "a-ha"
+  },
+  {
+    "title": "Karma Chameleon",
+    "artist": "Culture Club"
+  },
+  {
+    "title": "I Wanna Dance with Somebody",
+    "artist": "Whitney Houston"
+  },
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson"
+  },
+  {
+    "title": "Summer Of '69",
+    "artist": "Bryan Adams"
+  },
+  {
+    "title": "Let's Groove",
+    "artist": "Earth, Wind, & Fire"
+  },
+  {
+    "title": "Eye of the Tiger",
+    "artist": "Survivor"
+  },
+  {
+    "title": "I'm Gonna Be (500 Miles)",
+    "artist": "The Proclaimers"
+  },
+  {
+    "title": "You Make My Dreams (Come True)",
+    "artist": "Daryl Hall & John Oates"
+  },
+  {
+    "title": "Down Under",
+    "artist": "Men At Work"
+  },
+  {
+    "title": "You Can Call Me Al",
+    "artist": "Paul Simon"
+  },
+  {
+    "title": "Uptown Girl",
+    "artist": "Billy Joel"
+  },
+  {
+    "title": "Our House",
+    "artist": "Madness"
+  },
+  {
+    "title": "Free Fallin'",
+    "artist": "Tom Petty"
+  },
+
+  {
     "title": "Steal My Sunshine",
     "artist": "LEN"
   },
   {
     "title": "Sober Up",
     "artist": "AJR"
+  },
+  {
+    "title": "Sweet Caroline",
+    "artist": "Neil Diamond"
+  },
+  {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre, Snoop Dogg"
+  },
+  {
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood"
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana"
   },
   {
     "title": "Learning To Fly",

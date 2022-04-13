@@ -25,7 +25,7 @@ function App() {
     if (searchText.length === 0) {
       matches = [];
     }
-
+    matches = matches.slice(0, 3);
     setAutoCompleteSongs(matches);
 
     console.log(matches);
@@ -45,6 +45,10 @@ function App() {
     } else {
       audioPlayer.current.pause();
     }
+  };
+
+  const guessClick = () => {
+    console.log('Clicked on an answer');
   };
   return (
     <div className='App'>
@@ -120,7 +124,7 @@ function App() {
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
         {autocompleteSongs.map(song => (
-          <div>
+          <div onClick={() => guessClick()} className='SongOption'>
             {song.title} by {song.artist}
           </div>
         ))}
