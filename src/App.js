@@ -7,10 +7,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect, useRef } from 'react';
 import { BsPlayFill } from 'react-icons/bs';
 import { BsPauseFill } from 'react-icons/bs';
+//import jsonData from './data/songs.json';
+var data = require('./data/songs.json');
 function App() {
   const [openModal, setOpenModal] = useState(false);
   const [openAboutModal, setOpenAboutModal] = useState(false);
   const [playMusic, setPlayMusic] = useState(false);
+
+  const searchSongs = async searchText => {
+    //const res = await fetch('./data/songs.json');
+    //const songs = await res.json();
+    //console.log(songs);
+    console.log(data);
+  };
+
+  const onChange = e => {
+    searchSongs(e.target.value);
+  };
 
   const audioPlayer = useRef();
 
@@ -69,6 +82,7 @@ function App() {
                 type='text'
                 placeholder='Song Guess'
                 id='search'
+                onChange={e => onChange(e)}
               ></input>
               <div id='match-list'></div>
             </div>
