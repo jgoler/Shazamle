@@ -7,18 +7,28 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect, useRef } from 'react';
 import { BsPlayFill } from 'react-icons/bs';
 import { BsPauseFill } from 'react-icons/bs';
-//import jsonData from './data/songs.json';
+
 var data = require('./data/songs.json');
 function App() {
   const [openModal, setOpenModal] = useState(false);
   const [openAboutModal, setOpenAboutModal] = useState(false);
   const [playMusic, setPlayMusic] = useState(false);
+  const [autocompleteSongs, setAutoCompleteSongs] = useState([]);
 
   const searchSongs = async searchText => {
-    //const res = await fetch('./data/songs.json');
-    //const songs = await res.json();
-    //console.log(songs);
-    console.log(data);
+    //console.log(data);
+    let matches = data.filter(song => {
+      const regex = new RegExp(`^${searchText}`, 'gi');
+      return song.title.match(regex);
+    });
+
+    if (searchText.length === 0) {
+      matches = [];
+    }
+
+    setAutoCompleteSongs(matches);
+
+    console.log(matches);
   };
 
   const onChange = e => {
@@ -74,6 +84,22 @@ function App() {
           <GuessBox></GuessBox>
           <GuessBox></GuessBox>
         </div>
+        <div className='button-container'>
+          <button
+            type='button'
+            class='btn btn-link'
+            onClick={() => {
+              togglePlayPause();
+            }}
+          >
+            {playMusic ? (
+              <BsPauseFill size={35} color='white' />
+            ) : (
+              <BsPlayFill size={35} color='white' />
+            )}
+          </button>
+          <audio ref={audioPlayer} src={audio} />
+        </div>
         <form>
           <div className='input'>
             <div className='form-group'>
@@ -93,22 +119,11 @@ function App() {
         </form>
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
-        <div className='button-container'>
-          <button
-            type='button'
-            class='btn btn-link'
-            onClick={() => {
-              togglePlayPause();
-            }}
-          >
-            {playMusic ? (
-              <BsPauseFill size={35} color='white' />
-            ) : (
-              <BsPlayFill size={35} color='white' />
-            )}
-          </button>
-          <audio ref={audioPlayer} src={audio} />
-        </div>
+        {autocompleteSongs.map(song => (
+          <div>
+            {song.title} by {song.artist}
+          </div>
+        ))}
       </header>
     </div>
   );
