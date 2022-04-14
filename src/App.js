@@ -52,6 +52,12 @@ function App() {
     }
   };
 
+  const handleGuess = () => {
+    setFirstGuess(curSearch);
+    setSearch('');
+    setAutoCompleteSongs([]);
+  };
+
   const guessClick = (text, text_two) => {
     //console.log(`Inside guessClick ${song.title}`);
     setSearch(`${text} by ${text_two}`);
@@ -88,7 +94,7 @@ function App() {
           </div>
         </div>
         <div className='GuessContainer'>
-          <GuessBox></GuessBox>
+          <GuessBox name={firstGuess}></GuessBox>
           <GuessBox></GuessBox>
           <GuessBox></GuessBox>
           <GuessBox></GuessBox>
@@ -125,7 +131,7 @@ function App() {
               ></input>
               <div id='match-list'></div>
             </div>
-            <button type='button' class='btn btn-success'>
+            <button onClick={handleGuess} type='button' class='btn btn-success'>
               Submit
             </button>
           </div>
