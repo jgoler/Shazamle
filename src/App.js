@@ -16,6 +16,12 @@ function App() {
   const [autocompleteSongs, setAutoCompleteSongs] = useState([]);
   const [curSearch, setSearch] = useState('');
   const [firstGuess, setFirstGuess] = useState();
+  const [secondGuess, setSecondGuess] = useState();
+  const [thirdGuess, setThirdGuess] = useState();
+  const [fourthGuess, setFourthGuess] = useState();
+  const [fifthGuess, setFifthGuess] = useState();
+  const [sixthGuess, setSixthGuess] = useState();
+  const [openEndModal, setOpenEndModal] = useState(false);
 
   const searchSongs = async searchText => {
     //console.log(data);
@@ -53,7 +59,19 @@ function App() {
   };
 
   const handleGuess = () => {
-    setFirstGuess(curSearch);
+    if (!firstGuess) {
+      setFirstGuess(curSearch);
+    } else if (!secondGuess) {
+      setSecondGuess(curSearch);
+    } else if (!thirdGuess) {
+      setThirdGuess(curSearch);
+    } else if (!fourthGuess) {
+      setFourthGuess(curSearch);
+    } else if (!fifthGuess) {
+      setFifthGuess(curSearch);
+    } else if (!sixthGuess) {
+      setSixthGuess(curSearch);
+    }
     setSearch('');
     setAutoCompleteSongs([]);
   };
@@ -95,11 +113,11 @@ function App() {
         </div>
         <div className='GuessContainer'>
           <GuessBox name={firstGuess}></GuessBox>
-          <GuessBox></GuessBox>
-          <GuessBox></GuessBox>
-          <GuessBox></GuessBox>
-          <GuessBox></GuessBox>
-          <GuessBox></GuessBox>
+          <GuessBox name={secondGuess}></GuessBox>
+          <GuessBox name={thirdGuess}></GuessBox>
+          <GuessBox name={fourthGuess}></GuessBox>
+          <GuessBox name={fifthGuess}></GuessBox>
+          <GuessBox name={sixthGuess}></GuessBox>
         </div>
         <div className='button-container'>
           <button
