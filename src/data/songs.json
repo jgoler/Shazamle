@@ -1080,6 +1080,454 @@
     "artist": "The Chainsmokers, Coldplay"
   },
   {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran"
+  },
+  {
+    "title": "Wake Me Up",
+    "artist": "Avicii"
+  },
+  {
+    "title": "CAN'T STOP THE FEELING!",
+    "artist": "Justin Timberlake"
+  },
+  {
+    "title": "Just the Way You Are",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Someone Like You",
+    "artist": "Adele"
+  },
+  {
+    "title": "One Last Time",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Paris",
+    "artist": "The Chainsmokers"
+  },
+  {
+    "title": "bad guy",
+    "artist": "Billie Eilish"
+  },
+  {
+    "title": "Love Me Like You Do",
+    "artist": "Ellie Goulding"
+  },
+  {
+    "title": "Young Dumb & Broke",
+    "artist": "Khalid"
+  },
+  {
+    "title": "Shallow",
+    "artist": "Lady Gaga, Bradley Cooper"
+  },
+  {
+    "title": "Best Day Of My Life",
+    "artist": "American Authors"
+  },
+  {
+    "title": "I Will Wait",
+    "artist": "Mumford & Sons"
+  },
+  {
+    "title": "Some Nights",
+    "artist": "fun."
+  },
+  {
+    "title": "Shut Up and Dance",
+    "artist": "WALK THE MOON"
+  },
+  {
+    "title": "On Top Of The World",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Ho Hey",
+    "artist": "The Lumineers"
+  },
+  {
+    "title": "Little Talks",
+    "artist": "Of Monsters and Men"
+  },
+  {
+    "title": "Budapest",
+    "artist": "George Ezra"
+  },
+  {
+    "title": "Riptide",
+    "artist": "Vance Joy"
+  },
+  {
+    "title": "We Are Young",
+    "artist": "fun., Janelle Monáe"
+  },
+  {
+    "title": "Pompeii",
+    "artist": "Bastille"
+  },
+  {
+    "title": "Fireflies",
+    "artist": "Owl City"
+  },
+  {
+    "title": "Drive By",
+    "artist": "Train"
+  },
+  {
+    "title": "Blame It on Me",
+    "artist": "George Ezra"
+  },
+  {
+    "title": "Stolen Dance",
+    "artist": "Milky Chance"
+  },
+  {
+    "title": "Shotgun",
+    "artist": "George Ezra"
+  },
+  {
+    "title": "Renegades",
+    "artist": "X Ambassadors"
+  },
+  {
+    "title": "Feel It Still",
+    "artist": "Portugal. The Man"
+  },
+  {
+    "title": "Safe And Sound",
+    "artist": "Capital Cities"
+  },
+  {
+    "title": "It's a Beautiful Day",
+    "artist": "Michael Bublé"
+  },
+  {
+    "title": "Ex's & Oh's",
+    "artist": "Elle King"
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson, Bruno Mars"
+  },
+  {
+    "title": "Get Lucky",
+    "artist": "Daft Punk, Pharell Williams, Nile Rodgers"
+  },
+  {
+    "title": "Somebody That I Used To Know",
+    "artist": "Gotye, Kimbra"
+  },
+  {
+    "title": "Happy",
+    "artist": "Pharrell Williams"
+  },
+  {
+    "title": "Cool Kids",
+    "artist": "Echosmith"
+  },
+  {
+    "title": "Midnight City",
+    "artist": "M83"
+  },
+  {
+    "title": "Cake By the Ocean",
+    "artist": "DNCE"
+  },
+  {
+    "title": "Good Feeling",
+    "artist": "Flo Rida"
+  },
+  {
+    "title": "Paradise",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Moves Like Jagger",
+    "artist": "Maroon 5, Christina Aguilera"
+  },
+  {
+    "title": "Castle on the Hill",
+    "artist": "Ed Sheeran"
+  },
+  {
+    "title": "Good Time",
+    "artist": "Owl City, Carly Rae Jepsen"
+  },
+  {
+    "title": "Blurred Lines",
+    "artist": "Robin Thicke, T.I., Pharrell Williams"
+  },
+  {
+    "title": "Classic",
+    "artist": "MKTO"
+  },
+  {
+    "title": "Radioactive",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Feel So Close",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco"
+  },
+  {
+    "title": "Counting Stars",
+    "artist": "OneRepublic"
+  },
+  {
+    "title": "The Edge Of Glory",
+    "artist": "Lady Gaga"
+  },
+  {
+    "title": "California Gurls",
+    "artist": "Katy Perry, Snoop Dogg"
+  },
+  {
+    "title": "Ride",
+    "artist": "Twenty One Pilots"
+  },
+  {
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Centuries",
+    "artist": "Fall Out Boy"
+  },
+  {
+    "title": "Royals",
+    "artist": "Lorde"
+  },
+  {
+    "title": "Galway Girl",
+    "artist": "Ed Sheeran"
+  },
+  {
+    "title": "The Lazy Song",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Party Rock Anthem",
+    "artist": "LMFAO, Lauren Bennett, GoonRock"
+  },
+  {
+    "title": "Rumour Has It",
+    "artist": "Adele"
+  },
+  {
+    "title": "Levels",
+    "artist": "Avicii"
+  },
+  {
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen"
+  },
+  {
+    "title": "Sugar",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Timber",
+    "artist": "Pitbull, Kesha"
+  },
+  {
+    "title": "What Makes You Beautiful",
+    "artist": "One Direction"
+  },
+  {
+    "title": "Firework",
+    "artist": "Katy Perry"
+  },
+  {
+    "title": "Thunder",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Don't You Worry Child",
+    "artist": "Swedish House Mafia, John Martin"
+  },
+  {
+    "title": "Rude",
+    "artist": "MAGIC!"
+  },
+  {
+    "title": "All About That Bass",
+    "artist": "Meghan Trainor"
+  },
+  {
+    "title": "Stressed Out",
+    "artist": "Twenty One Pilots"
+  },
+  {
+    "title": "Rather Be",
+    "artist": "Clean Bandit, Jess Glynne"
+  },
+  {
+    "title": "Treasure",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Can't Hold Us",
+    "artist": "Macklemore & Ryan Lewis, Ray Dalton"
+  },
+  {
+    "title": "Sexy And I Know It",
+    "artist": "LMFAO"
+  },
+  {
+    "title": "Take Me To Church",
+    "artist": "Hozier"
+  },
+  {
+    "title": "Born This Way",
+    "artist": "Lady Gaga"
+  },
+  {
+    "title": "Teenage Dream",
+    "artist": "Katy Perry"
+  },
+  {
+    "title": "This Girl",
+    "artist": "Kungs, Cookin' On 3 Burners"
+  },
+  {
+    "title": "Last Friday Night (T.G.I.F.)",
+    "artist": "Katy Perry"
+  },
+  {
+    "title": "Glad You Came",
+    "artist": "The Wanted"
+  },
+  {
+    "title": "Cheerleader",
+    "artist": "OMI, Felix Jaehn"
+  },
+  {
+    "title": "Summer",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "Die Young",
+    "artist": "Kesha"
+  },
+  {
+    "title": "Billionaire",
+    "artist": "Travie McCoy, Bruno Mars"
+  },
+  {
+    "title": "Wild Ones",
+    "artist": "Flo Rida, Sia"
+  },
+  {
+    "title": "Thrift Shop",
+    "artist": "Macklemore & Ryan Lewis, Wanz"
+  },
+  {
+    "title": "Gangnam Style",
+    "artist": "PSY"
+  },
+  {
+    "title": "Waka Waka",
+    "artist": "Shakira, Freshlyground"
+  },
+  {
+    "title": "Hall of Fame",
+    "artist": "The Script, will.i.am"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artist": "Adele"
+  },
+  {
+    "title": "Whatever It Takes",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Tik Tok",
+    "artist": "Kesha"
+  },
+  {
+    "title": "Locked out of Heaven",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Am I Wrong",
+    "artist": "Nico & Vinz"
+  },
+  {
+    "title": "Demons",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Young, Wild & Free",
+    "artist": "Snoop Dogg, Wiz Khalifa, Bruno Mars"
+  },
+  {
+    "title": "Stronger",
+    "artist": "Kelly Clarkson"
+  },
+  {
+    "title": "Roar",
+    "artist": "Katy Perry"
+  },
+  {
+    "title": "Whistle",
+    "artist": "Flo Rida"
+  },
+  {
+    "title": "Lips Are Movin",
+    "artist": "Meghan Trainor"
+  },
+  {
+    "title": "Time of Our Lives",
+    "artist": "Pitbull, Ne-Yo"
+  },
+  {
+    "title": "Waves",
+    "artist": "Mr. Probz, Robin Schulz"
+  },
+  {
+    "title": "You Need To Calm Down",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "Sunflower",
+    "artist": "Post Malone, Swae Lee"
+  },
+  {
+    "title": "Can't Feel My FAce",
+    "artist": "The Weeknd"
+  },
+  {
+    "title": "We Are Never Ever Getting Back Together",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "24K Magic",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Stereo Hearts",
+    "artist": "Gym Class Heroes, Adam Levine"
+  },
+  {
+    "title": "You Belong With Me",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "Heat Waves",
+    "artist": "Glass Animals"
+  },
+  {
+    "title": "Circles",
+    "artist": "Post Malone"
+  },
+  {
     "title": "Steal My Sunshine",
     "artist": "LEN"
   },
