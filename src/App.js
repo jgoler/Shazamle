@@ -22,6 +22,7 @@ function App() {
   const [fifthGuess, setFifthGuess] = useState();
   const [sixthGuess, setSixthGuess] = useState();
   const [openEndModal, setOpenEndModal] = useState(false);
+  const [disableButton, setDisableButton] = useState(true);
 
   const searchSongs = async searchText => {
     //console.log(data);
@@ -60,17 +61,26 @@ function App() {
 
   const handleGuess = () => {
     if (!firstGuess) {
+      if (curSearch === 'Steal My Sunshine by LEN') {
+        console.log('Correct answer, the game is over.');
+      }
       setFirstGuess(curSearch);
+      setDisableButton(true);
     } else if (!secondGuess) {
       setSecondGuess(curSearch);
+      setDisableButton(true);
     } else if (!thirdGuess) {
       setThirdGuess(curSearch);
+      setDisableButton(true);
     } else if (!fourthGuess) {
       setFourthGuess(curSearch);
+      setDisableButton(true);
     } else if (!fifthGuess) {
       setFifthGuess(curSearch);
+      setDisableButton(true);
     } else if (!sixthGuess) {
       setSixthGuess(curSearch);
+      setDisableButton(true);
     }
     setSearch('');
     setAutoCompleteSongs([]);
@@ -80,6 +90,7 @@ function App() {
     //console.log(`Inside guessClick ${song.title}`);
     setSearch(`${text} by ${text_two}`);
     console.log(`Clicked on ${text}`);
+    setDisableButton(false);
   };
   return (
     <div className='App'>
@@ -149,7 +160,12 @@ function App() {
               ></input>
               <div id='match-list'></div>
             </div>
-            <button onClick={handleGuess} type='button' class='btn btn-success'>
+            <button
+              onClick={handleGuess}
+              type='button'
+              class='btn btn-success'
+              disabled={disableButton}
+            >
               Submit
             </button>
           </div>
