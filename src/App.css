@@ -105,7 +105,7 @@ hr {
 }
 .input {
   margin-top: 5vh;
-  width: 50vw;
+  width: 70vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -116,6 +116,11 @@ hr {
 }
 
 .SongOption {
-  width: 280px;
+  width: 36.5vw;
   border: 2px solid white;
+}
+
+.form-group {
+  width: 30vw;
+  height: 100%;
 }

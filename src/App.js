@@ -14,6 +14,8 @@ function App() {
   const [openAboutModal, setOpenAboutModal] = useState(false);
   const [playMusic, setPlayMusic] = useState(false);
   const [autocompleteSongs, setAutoCompleteSongs] = useState([]);
+  const [curSearch, setSearch] = useState('');
+  const [firstGuess, setFirstGuess] = useState();
 
   const searchSongs = async searchText => {
     //console.log(data);
@@ -32,7 +34,10 @@ function App() {
   };
 
   const onChange = e => {
+    //console.log(`e.target.value ${e.target.value}`);
+    setSearch(e.target.value);
     searchSongs(e.target.value);
+    //console.log(`curSearch is ${curSearch}`);
   };
 
   const audioPlayer = useRef();
@@ -47,8 +52,10 @@ function App() {
     }
   };
 
-  const guessClick = () => {
-    console.log('Clicked on an answer');
+  const guessClick = (text, text_two) => {
+    //console.log(`Inside guessClick ${song.title}`);
+    setSearch(`${text} by ${text_two}`);
+    console.log(`Clicked on ${text}`);
   };
   return (
     <div className='App'>
@@ -108,10 +115,12 @@ function App() {
           <div className='input'>
             <div className='form-group'>
               <input
+                className='input_itself'
                 class='form-control'
                 type='text'
                 placeholder='Song Guess'
                 id='search'
+                value={curSearch}
                 onChange={e => onChange(e)}
               ></input>
               <div id='match-list'></div>
@@ -124,7 +133,10 @@ function App() {
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
         {autocompleteSongs.map(song => (
-          <div onClick={() => guessClick()} className='SongOption'>
+          <div
+            onClick={text => guessClick(song.title, song.artist)}
+            className='SongOption'
+          >
             {song.title} by {song.artist}
           </div>
         ))}
