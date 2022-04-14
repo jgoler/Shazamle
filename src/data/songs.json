@@ -531,7 +531,554 @@
     "title": "Free Fallin'",
     "artist": "Tom Petty"
   },
-
+  {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey"
+  },
+  {
+    "title": "Tainted Love",
+    "artist": "Soft Cell"
+  },
+  {
+    "title": "Jump",
+    "artist": "Van Halen"
+  },
+  {
+    "title": "Paradise City",
+    "artist": "Guns N' Roses"
+  },
+  {
+    "title": "Another One Bites The Dust",
+    "artist": "Queen"
+  },
+  {
+    "title": "Higher Love",
+    "artist": "Steve Winwood"
+  },
+  {
+    "title": "Red Red Wine",
+    "artist": "UB40"
+  },
+  {
+    "title": "St. Elmos Fire",
+    "artist": "John Parr"
+  },
+  {
+    "title": "9 to 5",
+    "artist": "Dolly Parton"
+  },
+  {
+    "title": "In The Air Tonight",
+    "artist": "Phil Collins"
+  },
+  {
+    "title": "Fast Car",
+    "artist": "Tracy Chapman"
+  },
+  {
+    "title": "White Wedding",
+    "artist": "Billy Idol"
+  },
+  {
+    "title": "Radio Ga Ga",
+    "artist": "Queen"
+  },
+  {
+    "title": "Funky Town",
+    "artist": "Lipps Inc."
+  },
+  {
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys"
+  },
+  {
+    "title": "Life Is A Highway",
+    "artist": "Tom Cochrane"
+  },
+  {
+    "title": "Semi-Charmed Life",
+    "artist": "Third Eye Blind"
+  },
+  {
+    "title": "One Week",
+    "artist": "Barenaked Ladies"
+  },
+  {
+    "title": "Tubthumping",
+    "artist": "Chumbawamba"
+  },
+  {
+    "title": "Mr. Jones",
+    "artist": "Counting Crows"
+  },
+  {
+    "title": "Closing Time",
+    "artist": "Semisonic"
+  },
+  {
+    "title": "Alright",
+    "artist": "Supergrass"
+  },
+  {
+    "title": "Two Princes",
+    "artist": "Spin Doctors"
+  },
+  {
+    "title": "Friday I'm In Love",
+    "artist": "The Cure"
+  },
+  {
+    "title": "Buddy Holly",
+    "artist": "Weezer"
+  },
+  {
+    "title": "Breakfast At Tiffany's",
+    "artist": "Deep Blue Something"
+  },
+  {
+    "title": "You Get What You Give",
+    "artist": "New Radicals"
+  },
+  {
+    "title": "She's so High",
+    "artist": "Tal Bachman"
+  },
+  {
+    "title": "No Rain",
+    "artist": "Blind Melon"
+  },
+  {
+    "title": "There She Goes",
+    "artist": "The La's"
+  },
+  {
+    "title": "Santeria",
+    "artist": "Sublime"
+  },
+  {
+    "title": "Good Riddance (Time of Your Life)",
+    "artist": "Green Day"
+  },
+  {
+    "title": "Loser",
+    "artist": "Beck"
+  },
+  {
+    "title": "How Bizarre",
+    "artist": "OMC"
+  },
+  {
+    "title": "Wonderwall",
+    "artist": "Oasis"
+  },
+  {
+    "title": "Only Wanna Be with You",
+    "artist": "Hootie & The Blowfish"
+  },
+  {
+    "title": "Basket Case",
+    "artist": "Green Day"
+  },
+  {
+    "title": "Champagne Supernova",
+    "artist": "Oasis"
+  },
+  {
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis"
+  },
+  {
+    "title": "MMMBop",
+    "artist": "Hanson"
+  },
+  {
+    "title": "Canned Heat",
+    "artist": "Jamiroquai"
+  },
+  {
+    "title": "U Can't Touch This",
+    "artist": "MC Hammer"
+  },
+  {
+    "title": "Intergalactic",
+    "artist": "Beastie Boys"
+  },
+  {
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden"
+  },
+  {
+    "title": "Mambo No. 5",
+    "artist": "Lou Bega"
+  },
+  {
+    "title": "Jump Around",
+    "artist": "House Of Pain"
+  },
+  {
+    "title": "Cotton Eye Joe",
+    "artist": "Rednex"
+  },
+  {
+    "title": "What's Up?",
+    "artist": "4 Non Blondes"
+  },
+  {
+    "title": "Losing My Religion",
+    "artist": "R.E.M."
+  },
+  {
+    "title": "Thunderstruck",
+    "artist": "AC/DC"
+  },
+  {
+    "title": "Baby, I Love Your Way",
+    "artist": "Big Mountain, Tom Lord-Alge"
+  },
+  {
+    "title": "Iris",
+    "artist": "The Goo Goo Dolls"
+  },
+  {
+    "title": "Ice Ice Baby",
+    "artist": "Vanilla Ice"
+  },
+  {
+    "title": "I'm Too Sexy",
+    "artist": "Right Said Fred"
+  },
+  {
+    "title": "Virtual Insanity",
+    "artist": "Jamiroquai"
+  },
+  {
+    "title": "What Is Love",
+    "artist": "Haddaway"
+  },
+  {
+    "title": "Baby Got Back",
+    "artist": "Sir Mix-A-Lot"
+  },
+  {
+    "title": "Man! I Feel Like A Woman!",
+    "artist": "Shania Twain"
+  },
+  {
+    "title": "Lemon Tree",
+    "artist": "Fools Garden"
+  },
+  {
+    "title": "Zombie",
+    "artist": "The Cranberries"
+  },
+  {
+    "title": "Ironic",
+    "artist": "Alanis Morissette"
+  },
+  {
+    "title": "Sandstorm",
+    "artist": "Darude"
+  },
+  {
+    "title": "Just Dance",
+    "artist": "Lady Gaga, Colby O'Donis"
+  },
+  {
+    "title": "The Sweet Escape",
+    "artist": "Gwen Stefani, Akon"
+  },
+  {
+    "title": "Hips Don't Lie",
+    "artist": "Shakira, Wyclef Jean"
+  },
+  {
+    "title": "Yeah!",
+    "artist": "Usher, Lil Jon, Ludacris"
+  },
+  {
+    "title": "Lose Yourself",
+    "artist": "Eminem"
+  },
+  {
+    "title": "The Next Episode",
+    "artist": "Dr. Dre, Snoop Dogg"
+  },
+  {
+    "title": "Empire State Of Mind",
+    "artist": "JAY-Z, Alicia Keys"
+  },
+  {
+    "title": "Halo",
+    "artist": "Beyoncé"
+  },
+  {
+    "title": "I Believe in a Thing Called Love",
+    "artist": "The Darkness"
+  },
+  {
+    "title": "Mr. Brightside",
+    "artist": "The Killers"
+  },
+  {
+    "title": "A-Punk",
+    "artist": "Vampire Weekend"
+  },
+  {
+    "title": "All Summer Long",
+    "artist": "Kid Rock"
+  },
+  {
+    "title": "Hey Ya!",
+    "artist": "Outkast"
+  },
+  {
+    "title": "Pumped Up Kicks",
+    "artist": "Foster The People"
+  },
+  {
+    "title": "Teenage Dirtbag",
+    "artist": "Wheatus"
+  },
+  {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand"
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes"
+  },
+  {
+    "title": "Home",
+    "artist": "Edward Sharpe & The Magnetic Zeros"
+  },
+  {
+    "title": "Beautiful Day",
+    "artist": "U2"
+  },
+  {
+    "title": "Kids",
+    "artist": "MGMT"
+  },
+  {
+    "title": "Snow (Hey Oh)",
+    "artist": "Red Hot Chili Peppers"
+  },
+  {
+    "title": "When You Were Young",
+    "artist": "The Killers"
+  },
+  {
+    "title": "Ruby",
+    "artist": "Kaiser Chiefs"
+  },
+  {
+    "title": "Last Nite",
+    "artist": "The Strokes"
+  },
+  {
+    "title": "Someday",
+    "artist": "The Strokes"
+  },
+  {
+    "title": "Sex on Fire",
+    "artist": "Kings of Leon"
+  },
+  {
+    "title": "Crazy",
+    "artist": "Gnarls Barkley"
+  },
+  {
+    "title": "Waiting On the World to Change",
+    "artist": "John Mayer"
+  },
+  {
+    "title": "Dog Days Are Over",
+    "artist": "Florence + The Machine"
+  },
+  {
+    "title": "Feel Good Inc.",
+    "artist": "Gorillaz"
+  },
+  {
+    "title": "Walking On A Dream",
+    "artist": "Empire of the Sun"
+  },
+  {
+    "title": "Viva La Vida",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Grace Kelly",
+    "artist": "MIKA"
+  },
+  {
+    "title": "Hey, Soul Sister",
+    "artist": "Train"
+  },
+  {
+    "title": "Human",
+    "artist": "The Killers"
+  },
+  {
+    "title": "Hey There Delilah",
+    "artist": "Plain White T's"
+  },
+  {
+    "title": "Fuck You",
+    "artist": "CeeLo Green"
+  },
+  {
+    "title": "Sweet Disposition",
+    "artist": "The Temper Trap"
+  },
+  {
+    "title": "Clocks",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "I Gotta Feeling",
+    "artist": "Black Eyed Peas"
+  },
+  {
+    "title": "Better Together",
+    "artist": "Jack Johnson"
+  },
+  {
+    "title": "Bye Bye Bye",
+    "artist": "*NSYNC"
+  },
+  {
+    "title": "This Love",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Haven't Met You Yet",
+    "artist": "Michael Bublé"
+  },
+  {
+    "title": "Raise Your Glass",
+    "artist": "P!nk"
+  },
+  {
+    "title": "Bad Day",
+    "artist": "Daniel Powter"
+  },
+  {
+    "title": "21 Guns",
+    "artist": "Green Day"
+  },
+  {
+    "title": "Party In The U.S.A.",
+    "artist": "Miley Cyrus"
+  },
+  {
+    "title": "It Wasn't Me",
+    "artist": "Shaggy, Rik Rok"
+  },
+  {
+    "title": "Put Your Records On",
+    "artist": "Corinne Bailey Rae"
+  },
+  {
+    "title": "Cooler Than Me",
+    "artist": "Mike Posner, Gigamesh"
+  },
+  {
+    "title": "A Thousand Miles",
+    "artist": "Vanessa Carlton"
+  },
+  {
+    "title": "Shut Up And Drive",
+    "artist": "Rihanna"
+  },
+  {
+    "title": "Unwritten",
+    "artist": "Natasha Bedingfield"
+  },
+  {
+    "title": "Gold Digger",
+    "artist": "Kanye West, Jamie Foxx"
+  },
+  {
+    "title": "How to Save a Life",
+    "artist": "The Fray"
+  },
+  {
+    "title": "Love Song",
+    "artist": "Sara Bareilles"
+  },
+  {
+    "title": "Since U Been Gone",
+    "artist": "Kelly Clarkson"
+  },
+  {
+    "title": "Rock Your Body",
+    "artist": "Justin Timberlake"
+  },
+  {
+    "title": "Valerie",
+    "artist": "Amy Winehouse"
+  },
+  {
+    "title": "Chasing Cars",
+    "artist": "Snow Patrol"
+  },
+  {
+    "title": "I'm Yours",
+    "artist": "Jason Mraz"
+  },
+  {
+    "title": "One More Time",
+    "artist": "Daft Punk"
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Hollaback Girl",
+    "artist": "Gwen Stefani"
+  },
+  {
+    "title": "Pump It",
+    "artist": "Black Eyed Peas"
+  },
+  {
+    "title": "Dynamite",
+    "artist": "Taio Cruz"
+  },
+  {
+    "title": "Wherever You Will Go",
+    "artist": "The Calling"
+  },
+  {
+    "title": "Where Is The Love?",
+    "artist": "Black Eyed Peas"
+  },
+  {
+    "title": "Somewhere Only We Know",
+    "artist": "Keane"
+  },
+  {
+    "title": "Breakeven",
+    "artist": "The Script"
+  },
+  {
+    "title": "99 Problems",
+    "artist": "JAY-Z"
+  },
+  {
+    "title": "Stacy's Mom",
+    "artist": "Fountains Of Wayne"
+  },
+  {
+    "title": "Who Let The Dogs Out",
+    "artist": "Baha Men"
+  },
+  {
+    "title": "Something Just Like This",
+    "artist": "The Chainsmokers, Coldplay"
+  },
   {
     "title": "Steal My Sunshine",
     "artist": "LEN"
