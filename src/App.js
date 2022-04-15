@@ -2,6 +2,8 @@ import './App.css';
 import GuessBox from './components/GuessBox';
 import HTPModal from './components/HTPModal';
 import AboutModal from './components/AboutModal';
+import EndModal from './components/EndModal';
+import EndLossModal from './components/EndLossModal';
 import audio from './recordings/testrecording.mp3';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect, useRef } from 'react';
@@ -22,7 +24,9 @@ function App() {
   const [fifthGuess, setFifthGuess] = useState();
   const [sixthGuess, setSixthGuess] = useState();
   const [openEndModal, setOpenEndModal] = useState(false);
+  const [openEndLossModal, setOpenEndLossModal] = useState(false);
   const [disableButton, setDisableButton] = useState(true);
+  const [displayFirstX, setDisplayFirstX] = useState(false);
 
   const searchSongs = async searchText => {
     //console.log(data);
@@ -59,26 +63,53 @@ function App() {
     }
   };
 
+  let correctAnswer = 'Steal My Sunshine by LEN';
+
   const handleGuess = () => {
     if (!firstGuess) {
-      if (curSearch === 'Steal My Sunshine by LEN') {
+      if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      } else {
+        setDisplayFirstX(true);
       }
       setFirstGuess(curSearch);
       setDisableButton(true);
     } else if (!secondGuess) {
+      if (curSearch === correctAnswer) {
+        console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      }
       setSecondGuess(curSearch);
       setDisableButton(true);
     } else if (!thirdGuess) {
+      if (curSearch === correctAnswer) {
+        console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      }
       setThirdGuess(curSearch);
       setDisableButton(true);
     } else if (!fourthGuess) {
+      if (curSearch === correctAnswer) {
+        console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      }
       setFourthGuess(curSearch);
       setDisableButton(true);
     } else if (!fifthGuess) {
+      if (curSearch === correctAnswer) {
+        console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      }
       setFifthGuess(curSearch);
       setDisableButton(true);
     } else if (!sixthGuess) {
+      if (curSearch === correctAnswer) {
+        console.log('Correct answer, the game is over.');
+        setOpenEndModal(true);
+      } else {
+        setOpenEndLossModal(true);
+      }
       setSixthGuess(curSearch);
       setDisableButton(true);
     }
@@ -123,12 +154,34 @@ function App() {
           </div>
         </div>
         <div className='GuessContainer'>
-          <GuessBox name={firstGuess}></GuessBox>
-          <GuessBox name={secondGuess}></GuessBox>
-          <GuessBox name={thirdGuess}></GuessBox>
-          <GuessBox name={fourthGuess}></GuessBox>
-          <GuessBox name={fifthGuess}></GuessBox>
-          <GuessBox name={sixthGuess}></GuessBox>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={firstGuess}></GuessBox>
+            {displayFirstX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
+          </div>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={secondGuess}></GuessBox>
+            <h3>X</h3>
+          </div>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={thirdGuess}></GuessBox>
+            <h3>X</h3>
+          </div>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={fourthGuess}></GuessBox>
+            <h3>X</h3>
+          </div>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={fifthGuess}></GuessBox>
+            <h3>X</h3>
+          </div>
+          <div className='IndividualGuessContainer'>
+            <GuessBox name={sixthGuess}></GuessBox>
+            <h3>X</h3>
+          </div>
         </div>
         <div className='button-container'>
           <button
@@ -172,6 +225,13 @@ function App() {
         </form>
         {openModal && <HTPModal closeModal={setOpenModal} />}
         {openAboutModal && <AboutModal closeModal={setOpenAboutModal} />}
+        {openEndModal && <EndModal closeModal={setOpenEndModal} />}
+        {openEndLossModal && (
+          <EndLossModal
+            rightAnswer={correctAnswer}
+            closeModal={setOpenEndLossModal}
+          />
+        )}
         {autocompleteSongs.map(song => (
           <div
             onClick={text => guessClick(song.title, song.artist)}
