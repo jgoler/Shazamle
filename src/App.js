@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect, useRef } from 'react';
 import { BsPlayFill } from 'react-icons/bs';
 import { BsPauseFill } from 'react-icons/bs';
+import { FcCheckmark } from 'react-icons/fc';
 
 var data = require('./data/songs.json');
 function App() {
@@ -27,6 +28,12 @@ function App() {
   const [openEndLossModal, setOpenEndLossModal] = useState(false);
   const [disableButton, setDisableButton] = useState(true);
   const [displayFirstX, setDisplayFirstX] = useState(false);
+  const [displaySecondX, setDisplaySecondX] = useState(false);
+  const [displayThirdX, setDisplayThirdX] = useState(false);
+  const [displayFourthX, setDisplayFourthX] = useState(false);
+  const [displayFifthX, setDisplayFifthX] = useState(false);
+  const [displaySixthX, setDisplaySixthX] = useState(false);
+  const [displayCheckmark, setDisplayCheckmark] = useState(null);
 
   const searchSongs = async searchText => {
     //console.log(data);
@@ -70,6 +77,7 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(1);
       } else {
         setDisplayFirstX(true);
       }
@@ -79,6 +87,9 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(2);
+      } else {
+        setDisplaySecondX(true);
       }
       setSecondGuess(curSearch);
       setDisableButton(true);
@@ -86,6 +97,9 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(3);
+      } else {
+        setDisplayThirdX(true);
       }
       setThirdGuess(curSearch);
       setDisableButton(true);
@@ -93,6 +107,9 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(4);
+      } else {
+        setDisplayFourthX(true);
       }
       setFourthGuess(curSearch);
       setDisableButton(true);
@@ -100,6 +117,9 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(5);
+      } else {
+        setDisplayFifthX(true);
       }
       setFifthGuess(curSearch);
       setDisableButton(true);
@@ -107,8 +127,10 @@ function App() {
       if (curSearch === correctAnswer) {
         console.log('Correct answer, the game is over.');
         setOpenEndModal(true);
+        setDisplayCheckmark(6);
       } else {
         setOpenEndLossModal(true);
+        setDisplaySixthX(true);
       }
       setSixthGuess(curSearch);
       setDisableButton(true);
@@ -122,6 +144,7 @@ function App() {
     setSearch(`${text} by ${text_two}`);
     console.log(`Clicked on ${text}`);
     setDisableButton(false);
+    setAutoCompleteSongs([]);
   };
   return (
     <div className='App'>
@@ -158,29 +181,61 @@ function App() {
             <GuessBox name={firstGuess}></GuessBox>
             {displayFirstX ? (
               <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 1 ? (
+              <FcCheckmark size={30} />
             ) : (
               <h3 style={{ color: '#282c34' }}>X</h3>
             )}
           </div>
           <div className='IndividualGuessContainer'>
             <GuessBox name={secondGuess}></GuessBox>
-            <h3>X</h3>
+            {displaySecondX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 2 ? (
+              <FcCheckmark size={30} />
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
           </div>
           <div className='IndividualGuessContainer'>
             <GuessBox name={thirdGuess}></GuessBox>
-            <h3>X</h3>
+            {displayThirdX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 3 ? (
+              <FcCheckmark size={30} />
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
           </div>
           <div className='IndividualGuessContainer'>
             <GuessBox name={fourthGuess}></GuessBox>
-            <h3>X</h3>
+            {displayFourthX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 4 ? (
+              <FcCheckmark size={30} />
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
           </div>
           <div className='IndividualGuessContainer'>
             <GuessBox name={fifthGuess}></GuessBox>
-            <h3>X</h3>
+            {displayFifthX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 5 ? (
+              <FcCheckmark size={30} />
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
           </div>
           <div className='IndividualGuessContainer'>
             <GuessBox name={sixthGuess}></GuessBox>
-            <h3>X</h3>
+            {displaySixthX ? (
+              <h3 style={{ color: 'red' }}>X</h3>
+            ) : displayCheckmark === 6 ? (
+              <FcCheckmark size={30} />
+            ) : (
+              <h3 style={{ color: '#282c34' }}>X</h3>
+            )}
           </div>
         </div>
         <div className='button-container'>

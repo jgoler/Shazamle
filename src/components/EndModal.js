@@ -8,7 +8,7 @@ function EndModal({ closeModal }) {
           <button onClick={() => closeModal(false)}>X</button>
         </div>
         <div className='title'>
-          <h1>Congratulations!</h1>
+          <h1 style={{ color: '#33cc33' }}>Congratulations!</h1>
         </div>
         <div className='body'>
           <p>
